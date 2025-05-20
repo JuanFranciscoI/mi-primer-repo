@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TP1-IngaramoJ.iml" filepath="$PROJECT_DIR$/TP1-IngaramoJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP2-IngaramoJ/TP2-IngaramoJ.iml" filepath="$PROJECT_DIR$/TP2-IngaramoJ/TP2-IngaramoJ.iml" />
+    </modules>
+  </component>
+</project>
