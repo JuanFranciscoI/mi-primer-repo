@@ -1,7 +1,5 @@
 package Resol_IngaramoJ;
 
-import java.util.Arrays;
-
 public class Ejercicio14 {
     public static void main(String[] args) {
         // matriz inicial

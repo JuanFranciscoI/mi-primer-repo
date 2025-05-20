@@ -20,15 +20,15 @@ public class Ejercicio12 {
         // Ahora creo una copia del arreglo para no tocar el original
         int[] ordenado = Arrays.copyOf(numeros, numeros.length);
 
-    for (int i = 0; i < ordenado.length - 1; i++) {
-        for (int j = i + 1; j < ordenado.length; j++) {
-            int aux = ordenado[i];
-            if (ordenado[i] < ordenado[j]) {
-            ordenado[i] = ordenado[j];
-            ordenado[j] = aux;
+        for (int i = 0; i < ordenado.length - 1; i++) {
+            for (int j = i + 1; j < ordenado.length; j++) {
+                int aux = ordenado[i];
+                if (ordenado[i] < ordenado[j]) {
+                    ordenado[i] = ordenado[j];
+                    ordenado[j] = aux;
+                }
             }
         }
-    }
         System.out.println("Ordenado de mayor a menor: " + Arrays.toString(ordenado));
     }
 }

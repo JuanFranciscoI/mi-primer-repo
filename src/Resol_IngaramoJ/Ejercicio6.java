@@ -1,7 +1,5 @@
 package Resol_IngaramoJ;
 
-import java.util.Random;
-
 import java.util.Scanner;
 
 public class Ejercicio6 {
@@ -17,9 +15,9 @@ public class Ejercicio6 {
 
         while (intento != aleatorio) {
 
-        if (intento < aleatorio) {
-            System.out.println("El intento es más bajo que el número aleatorio");
-        }     else {
+            if (intento < aleatorio) {
+                System.out.println("El intento es más bajo que el número aleatorio");
+            } else {
                 System.out.println("El intento es más alto que el número aleatorio");
             }
             intento = scanner.nextInt();

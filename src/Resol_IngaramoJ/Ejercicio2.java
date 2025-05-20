@@ -10,8 +10,7 @@ public class Ejercicio2 {
         int numero = scanner.nextInt();
         if (numero % 2 == 0) {
             System.out.println("El número es par.");
-        }
-            else {
+        } else {
             System.out.println("El número es impar.");
         }
     }

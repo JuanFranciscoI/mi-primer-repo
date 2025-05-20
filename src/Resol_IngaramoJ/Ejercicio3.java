@@ -11,10 +11,10 @@ public class Ejercicio3 {
 
         int numero = scanner.nextInt();
 
-        for (int i=1; i<=10; i++){
+        for (int i = 1; i <= 10; i++) {
             int resultado = numero * i;
-            System.out.print(resultado+"\n");
-        // "\n" para que el resultado no se imprima seguido, si no con un salto de linea cada uno
+            System.out.print(resultado + "\n");
+            // "\n" para que el resultado no se imprima seguido, si no con un salto de linea cada uno
         }
     }
 }

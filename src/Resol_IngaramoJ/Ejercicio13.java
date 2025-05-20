@@ -15,14 +15,14 @@ public class Ejercicio13 {
             nombres[i] = scanner.nextLine();
         }
 
-            for (int i = 0; i < 3; i++) {
-                System.out.println("Ingresa las notas del alumno " + (i + 1) + ": ");    //i representa el estudiante.
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Ingresa las notas del alumno " + (i + 1) + ": ");    //i representa el estudiante.
 
-                for (int j = 0; j < 3; j++){
-                    System.out.println("Nota " + (j + 1) + ": "); // j representa la nota del estudiante i.
-                    notas[i][j] = scanner.nextDouble();
-                }
+            for (int j = 0; j < 3; j++) {
+                System.out.println("Nota " + (j + 1) + ": "); // j representa la nota del estudiante i.
+                notas[i][j] = scanner.nextDouble();
             }
+        }
         for (int i = 0; i < 3; i++) {
             double suma = 0;
             for (int j = 0; j < 3; j++) {

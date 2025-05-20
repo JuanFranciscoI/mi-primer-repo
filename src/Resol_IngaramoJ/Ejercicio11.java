@@ -14,8 +14,9 @@ public class Ejercicio11 {
             System.out.print(fibonacci(i) + " ");
         }
     }
-        //Metodo recursivo que calcula el término n de la serie de Fibonacci
-        static int fibonacci(int n) {
+
+    //Metodo recursivo que calcula el término n de la serie de Fibonacci
+    static int fibonacci(int n) {
         // Caso base: los dos primeros términos son 1
         if (n == 1 || n == 2) return 1;
 

@@ -3,7 +3,7 @@ package Resol_IngaramoJ;
 import java.util.Scanner;
 
 public class Ejercicio8 {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Elige la conversión a realizar");
